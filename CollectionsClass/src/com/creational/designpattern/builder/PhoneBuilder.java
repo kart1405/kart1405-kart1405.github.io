@@ -5,6 +5,8 @@ public class PhoneBuilder {
 	private String specs;
 	public PhoneBuilder setName(String name) {
 		this.name = name;
+		
+		System.out.println("Hello");
 		return this;
 	}
 	public PhoneBuilder setSpecs(String specs) {
